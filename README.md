@@ -8,3 +8,4 @@ BUILD
         -e SERVER=<server> \
         -e PASSWORD=$PASSWORD \
         -it $(docker build . | tail -1 | awk '{print $3}')
+        
