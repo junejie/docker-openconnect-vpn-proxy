@@ -8,6 +8,7 @@ RUN apt-get install -y openconnect
 RUN apt-get install -y ocproxy
 RUN apt-get install -y dnsutils
 RUN apt-get install -y openssh-client
+RUN apt-get install -y iputils-ping
 
 RUN apt-get clean && \
     rm -rf /var/cache/apt/* && \
