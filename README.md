@@ -2,7 +2,7 @@ VARIABLES
 
     You need to set your vpn password in your environment variables
 
-        $ export $PASSWORD=<secret password>
+        $ export PASSWORD=<secret password>
 
 PULL
 ----
